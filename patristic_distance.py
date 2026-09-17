@@ -27,8 +27,6 @@ Example
         --group-countries "UAE" "United Arab Emirates" \
         --out uae_patristic_distances.csv
 
-Author: (add your name)
-License: MIT (or your choice)
 """
 
 import argparse
