@@ -13,7 +13,7 @@ The workflow integrates:
 - Structural visualization using PyMOL
 - Mutation and antigenic site mapping
 
-This pipeline can be applied to influenza A proteins such as Hemagglutinin (HA) and Neuraminidase (NA).
+This pipeline can be applied to influenza B proteins such as Hemagglutinin (HA) and Neuraminidase (NA).
 
 ---
 
