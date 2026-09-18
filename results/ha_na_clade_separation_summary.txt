@@ -1,0 +1,11 @@
+HA-NA clade-separation summary
+================================
+
+High HA-epitope burden is separated by clade in the UAE matched HA-NA cohort.
+The crude high-burden versus low-burden comparison is therefore interpreted as descriptive.
+Adjusted inference for this binary contrast should use exact or stratified analyses;
+Firth-penalized logistic regression can be used as a sensitivity method where estimable.
+
+Unadjusted Fisher OR = 3.14
+95% CI = 1.40-7.07
+Fisher exact p = 0.00351

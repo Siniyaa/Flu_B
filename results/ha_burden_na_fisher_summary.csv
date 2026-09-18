@@ -1,0 +1,2 @@
+comparison,high_burden_focal_NA_yes,high_burden_focal_NA_no,low_burden_focal_NA_yes,low_burden_focal_NA_no,odds_ratio,ci_low_woolf,ci_high_woolf,fisher_exact_p,interpretation
+high_vs_low_HA_epitope_burden,75,7,290,85,3.1403940886699506,1.3950155398083595,7.069509084829242,0.0035095267249087786,descriptive_unadjusted_association_clade_separated

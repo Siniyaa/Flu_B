@@ -1,0 +1,15 @@
+# Local study inputs and generated phylogenetic outputs
+/raw_data/
+/work/
+/private/
+/local_config/
+/logs/
+*.log
+*.log.*
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store

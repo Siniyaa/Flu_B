@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "output_root": "work",
+  "augur_executable": "augur",
+  "expected_augur_version": "27.2.0",
+  "auspice_config": "config/auspice_config.json",
+  "defaults": {
+    "parameters_confirmed": false,
+    "require_exact_ids": true,
+    "retain_reference": true,
+    "min_length": null,
+    "max_length": null,
+    "max_ambiguous_fraction": null,
+    "min_date": null,
+    "max_date": null,
+    "exclude_ambiguous_dates_by": null,
+    "include_file": null,
+    "exclude_file": null,
+    "substitution_model": null,
+    "tree_builder_args": "",
+    "tree_seed": null,
+    "seed": null,
+    "root": null,
+    "clock_filter_iqd": null,
+    "clock_rate": null,
+    "clock_std_dev": null,
+    "coalescent": null,
+    "date_confidence": true,
+    "date_inference": "joint",
+    "branch_length_inference": "auto",
+    "keep_polytomies": false,
+    "ancestral_inference": "joint",
+    "keep_ambiguous": true,
+    "keep_overhangs": true,
+    "trait_columns": [
+      "country",
+      "region"
+    ],
+    "itol_columns": [
+      "country",
+      "clade"
+    ],
+    "run_patristic": false
+  },
+  "segments": {
+    "HA": {
+      "sequences": "raw_data/HA/sequences.fasta",
+      "metadata": "raw_data/HA/metadata.tsv",
+      "reference_genbank": "raw_data/HA/reference.gb",
+      "reference_tip": "EPI_ISL_983345",
+      "gene": "HA",
+      "run_patristic": true,
+      "patristic_reference": "EPI_ISL_983345"
+    },
+    "NA": {
+      "sequences": "raw_data/NA/sequences.fasta",
+      "metadata": "raw_data/NA/metadata.tsv",
+      "reference_genbank": "raw_data/NA/reference.gb",
+      "reference_tip": "B_Aus_1359_NA",
+      "gene": "NA",
+      "substitution_model": "GTR",
+      "tree_seed": 666962
+    }
+  }
+}
