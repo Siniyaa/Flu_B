@@ -15,8 +15,6 @@ The workflow starts with consensus sequences and metadata and produces phylogeni
 | HA-NA substitution co-occurrence | [HA-NA analysis](docs/ha_na_analysis.md) |
 | Conservation scores and structural visualisation | [Conservation-score README](README_Conservation_Score.md) |
 
-The existing `README_Conservation_Score.md`, `pymol_code.py` and root-level `patristic_distance.py` are retained unchanged. The pipeline uses an identical copy of the patristic script in `scripts/`.
-
 ## Workflow
 
 ```text
