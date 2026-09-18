@@ -1,0 +1,14 @@
+name: flu-b-phylogeny
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - augur=27.2.0
+  - mafft=7.526
+  - iqtree=2.3.6
+  - biopython>=1.81
+  - matplotlib>=3.7
+  - pandas>=2.0
+  - scipy>=1.10

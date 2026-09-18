@@ -1,0 +1,5 @@
+name,country,date,div,patristic_distance,category
+example_reference,Example country,2023-01-01,0.006,0.0,Very close
+example_uae_alias,United Arab Emirates,2023-02-02,0.006,0.004,Very close
+example_uae,UAE,2023-02-01,0.007,0.005,Close
+example_other,Example country,2023-03-01,0.025,0.031,Very distant

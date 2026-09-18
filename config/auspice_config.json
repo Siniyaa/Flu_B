@@ -1,0 +1,12 @@
+{
+  "title": "Influenza B/Victoria genomic analysis",
+  "colorings": [
+    {"key": "num_date", "title": "Sampling date", "type": "continuous"},
+    {"key": "gt", "title": "Genotype", "type": "categorical"},
+    {"key": "country", "title": "Country", "type": "categorical"},
+    {"key": "region", "title": "Region", "type": "categorical"},
+    {"key": "clade", "title": "Clade", "type": "categorical"}
+  ],
+  "filters": ["country", "region", "clade"],
+  "panels": ["tree", "entropy"]
+}
